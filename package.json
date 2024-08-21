@@ -1,9 +1,9 @@
 {
   "author": "Cleber de M. Goncalves (deMGoncalves)",
   "bugs": {
-    "url": "https://github.com/bake-js/-o-id/issues"
+    "url": "https://github.com/bake-js/arcus/issues"
   },
-  "description": "-O-id é uma biblioteca leve e fácil de usar para criar Web Components personalizados, com foco em simplicidade e desempenho",
+  "description": "",
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
     "@commitlint/cli": "^19.3.0",
@@ -14,38 +14,18 @@
   },
   "exports": {
     ".": {
-      "import": "dist/-o-id.js",
-      "require": "dis/-o-id.cjs"
-    },
-    "./dom": {
-      "import": "dist/dom.js",
-      "require": "dis/dom.cjs"
-    },
-    "./echo": {
-      "import": "dist/echo.js",
-      "require": "dis/echo.cjs"
-    },
-    "./event": {
-      "import": "dist/event.js",
-      "require": "dis/event.cjs"
+      "import": "dist/arcus.js",
+      "require": "dis/arcus.cjs"
     }
   },
   "files": ["dist", "types.d.ts"],
-  "homepage": "https://github.com/bake-js/-o-id#readme",
+  "homepage": "https://github.com/bake-js/arcus#readme",
   "license": "MIT",
-  "keywords": [
-    "Web Components",
-    "template",
-    "slot",
-    "shadowRoot",
-    "Javascript",
-    "HTML",
-    "CSS"
-  ],
-  "name": "@bake-js/-o-id",
+  "keywords": ["Worker", "Javascript", "HTML", "CSS"],
+  "name": "@bake-js/arcus",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bake-js/-o-id.git"
+    "url": "git+https://github.com/bake-js/arcus.git"
   },
   "scripts": {
     "build": "vite build",
@@ -53,5 +33,5 @@
   },
   "type": "module",
   "types": "types.d.ts",
-  "version": "0.0.40"
+  "version": "0.0.1"
 }
