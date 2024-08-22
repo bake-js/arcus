@@ -16,6 +16,10 @@
     ".": {
       "import": "dist/arcus.js",
       "require": "dis/arcus.cjs"
+    },
+    "./router": {
+      "import": "dist/router.js",
+      "require": "dis/router.cjs"
     }
   },
   "files": ["dist", "types.d.ts"],
@@ -33,5 +37,5 @@
   },
   "type": "module",
   "types": "types.d.ts",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }

@@ -6,6 +6,7 @@ export default defineConfig({
     lib: {
       entry: {
         arcus: resolve(__dirname, "src/index.js"),
+        router: resolve(__dirname, "src/router/index.js"),
       },
       formats: ["cjs", "es"],
     },
